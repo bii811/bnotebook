@@ -4,16 +4,18 @@
 
 
 # Requirement
-- MongoDBserver 3.4 (default config): https://www.mongodb.com/download-center?jmp=nav
-- Python 3.x: https://www.python.org/downloads/
-- Python 3 library:
-	1. tkinter
-	2. pymongo
-	
-	if not have pip yet: https://pip.pypa.io/en/stable/installing/
-	download: https://bootstrap.pypa.io/get-pip.py
-	install: run in cmd ($ python3 get-pip)
-	use: pip install <package-name>
+## MongoDBserver 3.4 (default config)
+https://www.mongodb.com/download-center?jmp=nav
+## Python 3.6
+https://www.python.org/downloads/
+## Python 3 library
+- tkinter
+- pymongo
+
+	- if you not have pip yet: https://pip.pypa.io/en/stable/installing/
+		- download: https://bootstrap.pypa.io/get-pip.py
+		- install: run in cmd ($ python3 get-pip)
+		- use: pip install <package-name>
 
 # Installation
 ## MongoDB 3.4.1
@@ -23,6 +25,7 @@
 3. sudo apt-get update
 4. sudo apt-get install -y mongodb-org
 5. sudo service mongod start
+
 ## Python 3.x
 ### Debian 8 (python3 usually come with debian):
 1. sudo apt-get update
